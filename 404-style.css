@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.image {
+background: url(404.jpg) no-repeat center fixed;
+background-size: contain;
+height: 100%;
+width: auto;
+position: relative;
+background-origin: content-box;
+}
+button {
+    text-align: center;
+    position: absolute;
+    top:10%;
+    left:10%;
+    width: 10%;
+    height: auto;
+}
+.image a {
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   padding: 15% 10% 10% 0;
+}
+footer p {
+    position: absolute;
+    left: 35%;
+    bottom: 2%;
+}
