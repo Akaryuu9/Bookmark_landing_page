@@ -1,10 +1,13 @@
 
 body {
     font-size: 18px;
-    margin: 3% 10% 0 10%;
+    /* margin: 3% 10% 0 10%; */
     font-family: Rubik;
 }
-header {/* parent-container*/
+header, .section2, .section3, .section4 {
+    margin: 3% 10% 0 10%;
+}
+header {/* parent-container HEADER*/
 display: flex;
 }
 #bookmarkLogo {
@@ -40,25 +43,38 @@ p {
     background-color: whitesmoke;
     font-weight: 600;
 }
-.section1 {          /*parent-container*/
+.section1 {          /*parent-container SECTION1*/
 display: flex;
 padding-top: 8%;
 justify-content: space-between;
+margin: 3% 0 0 10%;
 }
 .div1Section1 {
-    width: 38%;
+    width: 34%;
 }
 h1 {
     font-size: 35px;
 }
 .div2Section1 {
     position: relative;
+
+}
+#bookmarkImage {
+    position: relative;
+    width: auto;
+    height: auto;
+    right: 10%;
+    z-index: 1;
 }
 .imageShadow1 {
     background-color:  hsl(231, 69%, 60%);
-    width: 300px;
+    width: 536px;
+    height: 346px;
+    border-radius: 0 0 0 300px;
+    position: absolute;
+    top: 25%;
+    right: 0%;
 }
-#bookmarkImage
 /*.section2 {
 
 }*/
