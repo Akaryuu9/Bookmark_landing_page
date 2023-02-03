@@ -1,10 +1,13 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 body {
     font-size: 18px;
     /* margin: 3% 10% 0 10%; */
     font-family: Rubik;
 }
-header, .section2, .section3, .section4 {
+header, .section3, .section4 {
     margin: 3% 10% 0 10%;
 }
 header {/* parent-container HEADER*/
@@ -75,10 +78,54 @@ h1 {
     top: 25%;
     right: 0%;
 }
-/*.section2 {
+/* .section2 {}           /* parent container SECTION2 */
+.div1Section2, .section3header, .section4header{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+  padding-top: 15%;
+}
+#divTab1, #divTab2, #divTab3 {
+    border-bottom: 2px solid lightgray;
+    padding: 2%;
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(118, 118, 118) ;
+    }
+    .divTab1 {
+        position: relative;
+        width: 40%;
+        padding: 2%;
+    }
+    .tab1Img svg {
+        position: relative;
+        width: auto;
+        height: auto;
+        left: 0%;
+        z-index: 1;
+    }
+    .imageShadow2 {
+        background-color:  hsl(231, 69%, 60%);
+        width: 536px;
+        height: 346px;
+        border-radius: 0 0 300px 0;
+        position: absolute;
+        top: 20%;
+        left: 0;
+    }
 
-}*/
-/*.section3 {
+    .divTab2, .divTab3 {
+        display: none;
+    }
+/*.section3 {  
 
 }*/
 /*.section4 {
