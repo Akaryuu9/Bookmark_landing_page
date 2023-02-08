@@ -10,7 +10,7 @@ body {
 header, .section3, .section4 {
     margin: 3% 10% 0 10%;
 }
-header {/* parent-container HEADER*/
+header {                                       /* parent-container HEADER*/
 display: flex;
 }
 #bookmarkLogo {
@@ -32,6 +32,8 @@ p {
     background-color:  hsl(231, 69%, 60%);
     font-weight: 600;
     border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
 }
 #div1Button2 a {
     text-decoration: none;
@@ -46,7 +48,7 @@ p {
     background-color: whitesmoke;
     font-weight: 600;
 }
-.section1 {          /*parent-container SECTION1*/
+.section1 {                            /*parent-container SECTION1*/
 display: flex;
 padding-top: 8%;
 justify-content: space-between;
@@ -55,8 +57,12 @@ margin: 3% 0 0 10%;
 .div1Section1 {
     width: 34%;
 }
-h1 {
+.div1Section1 h1 {
     font-size: 35px;
+    padding: 15px;
+}
+p, h2 {
+    padding: 15px;
 }
 .div2Section1 {
     position: relative;
@@ -78,8 +84,9 @@ h1 {
     top: 25%;
     right: 0%;
 }
-/* .section2 {}           /* parent container SECTION2 */
-.div1Section2, .section3header, .section4header{
+                                                 /* parent container SECTION2 */
+
+.section2header, .section3header, .section4header{
   position: relative;
   top: 50%;
   left: 50%;
@@ -88,25 +95,22 @@ h1 {
   width: 50%;
   padding-top: 15%;
 }
-#divTab1, #divTab2, #divTab3 {
+#tab1, #tab2, #tab3 {
     border-bottom: 2px solid lightgray;
     padding: 2%;
-    width: 15%;
     display: inline-block;
     position: relative;
     top: 50%;
-    left: 33%;
+    left: 33.3%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(118, 118, 118) ;
     }
-    .divTab1 {
+    .tab1, .tab2, .tab3 {
         position: relative;
-        width: 40%;
         padding: 2%;
     }
     .tab1Img svg {
-        position: relative;
         width: auto;
         height: auto;
         left: 0%;
@@ -121,8 +125,19 @@ h1 {
         top: 20%;
         left: 0;
     }
+    .tab1Img {
+        width: 45%;
+    }
+    .tab1Text {
+        width: 30%;
+        position: relative;
+        left:10%;
 
-    .divTab2, .divTab3 {
+    }
+    .tab1Img, .tab1Text {
+        display: inline-block;
+    }
+    .tab2, .tab3 {
         display: none;
     }
 /*.section3 {  
