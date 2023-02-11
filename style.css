@@ -22,11 +22,20 @@ p {
 .nav1 a {
     text-decoration: none;
     color: black;
-    margin: 3%;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
 }
 .nav1 {
    justify-content: flex-end;
    width: 50%;
+}
+#features:hover, #pricing:hover, #contact:hover, #login:hover {
+    color: red;
+}
+#features:active, #pricing:active, #contact:active, #login:active {
+    border: 2px solid red;
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 #div1Button1, .moreInfo, .install {
     background-color:  hsl(231, 69%, 60%);
@@ -34,9 +43,23 @@ p {
     border-radius: 5px;
     padding: 15px;
 }
+#div1Button1 a:hover, .moreInfo a:hover, .install a:hover{
+    color: hsl(231, 69%, 60%);
+}
+#div1Button1:hover, .moreInfo:hover, .install:hover {
+    background-color: white;
+    border: 2px solid hsl(231, 69%, 60%);
+}
 #div1Button2 a {
     text-decoration: none;
     color: darkslategrey;
+}
+#div1Button2:hover {
+    background-color: white;
+    border: 2px solid midnightblue;
+}
+#div1Button2 a:hover {
+    color: midnightblue;
 }
 #div1Button1, #div1Button2 {
     padding: 2%;
@@ -95,7 +118,7 @@ p, h2 {
   padding-top: 15%;
 }
 #tab1, #tab2, #tab3 {
-    border-bottom: 2px solid lightgray;
+    border-bottom: 3px solid lightgray;
     padding: 2%;
     display: inline-block;
     position: relative;
@@ -105,6 +128,15 @@ p, h2 {
     text-align: center;
     color: rgb(118, 118, 118) ;
     }
+    #tab1:hover, #tab2:hover, #tab3:hover {
+        color: red;
+        cursor: pointer;
+    }
+    #tab1:active, #tab2:active, #tab3:active {
+        color: black;
+        border-bottom: 3px solid red;
+
+    } 
     .tab1, .tab2, .tab3 {
         position: relative;
         padding: 2%;
@@ -129,6 +161,9 @@ p, h2 {
     }
     .tab1Text {
         width: 30%;
+        position: absolute;
+        top: 20%;
+        right: 15%;
     }
     .tab1Img, .tab1Text {
         display: inline-block;
@@ -136,21 +171,23 @@ p, h2 {
     .tab2, .tab3 {
         display: none;
     }
-/*.section3 {  
+.section3 {  
+position: relative;
+}
+/* .section4 {
 
-}*/
-/*.section4 {
 
-}*/
+} */
 .qa {
     width: 33%;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 30%;
 }
 .qa p {
     display: none;
+    position: relative;
+    text-align: left;
+    margin-left: 4%;
 }
 .qa .q {
     border: none;
@@ -159,6 +196,12 @@ p, h2 {
     cursor: pointer;
     font-size: 18px;
 }
+.qa .q:hover {
+    color: red;
+}
+/* #arrow1 path{
+    stroke: red;
+} */
 .section5 {
     background-color:hsl(231, 69%, 60%);
     color: white ;
