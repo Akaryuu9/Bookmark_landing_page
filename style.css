@@ -110,12 +110,12 @@ p, h2 {
 
 .section2header, .section3header, .section4header{
   position: relative;
-  top: 50%;
+  /* top: 50%; */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 50%;
-  padding-top: 15%;
+  /* padding-top: 15%; */
 }
 #tab1, #tab2, #tab3 {
     border-bottom: 3px solid lightgray;
@@ -174,10 +174,9 @@ p, h2 {
 .section3 {  
 position: relative;
 }
-/*                                                           .section4 {
-
-
-} */
+.section4 {
+position: relative;
+} 
 .qa {
     width: 33%;
     position: relative;
@@ -211,7 +210,8 @@ position: relative;
 }
 .section5 a, .nav2 a, .moreInfo a, .install a, #div1Button1 a{
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
+    padding: 5px;
 }
 footer {
     background-color: hsl(229, 31%, 21%);
