@@ -43,7 +43,7 @@ p {
     border-radius: 5px;
     padding: 15px;
 }
-#div1Button1 a:hover, .moreInfo a:hover, .install a:hover{
+#div1Button1 a:hover, .moreInfo a:hover, .install a:hover {
     color: hsl(231, 69%, 60%);
 }
 #div1Button1:hover, .moreInfo:hover, .install:hover {
@@ -56,10 +56,10 @@ p {
 }
 #div1Button2:hover {
     background-color: white;
-    border: 2px solid midnightblue;
+    border: 2px solid darkslategrey;
 }
 #div1Button2 a:hover {
-    color: midnightblue;
+    color: darkslategray;
 }
 #div1Button1, #div1Button2 {
     padding: 2%;
@@ -106,7 +106,7 @@ p, h2 {
     top: 25%;
     right: 0%;
 }
-                                                 /* parent container SECTION2 */
+                                                       /* parent container SECTION2 */
 
 .section2header, .section3header, .section4header{
   position: relative;
@@ -127,54 +127,54 @@ p, h2 {
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(118, 118, 118) ;
-    }
-    #tab1:hover, #tab2:hover, #tab3:hover {
-        color: red;
-        cursor: pointer;
-    }
-    #tab1:active, #tab2:active, #tab3:active {
-        color: black;
-        border-bottom: 3px solid red;
+}
+#tab1:hover, #tab2:hover, #tab3:hover {
+    color: red;
+    cursor: pointer;
+}
+#tab1:active, #tab2:active, #tab3:active {
+    color: black;
+    border-bottom: 3px solid red;
 
-    } 
-    .tab1, .tab2, .tab3 {
-        position: relative;
-        padding: 2%;
-    }
-    .tab1Img svg {
-        width: auto;
-        height: auto;
-        left: 0%;
-        z-index: 1;
-    }
-    .imageShadow2 {
-        background-color:  hsl(231, 69%, 60%);
-        width: 536px;
-        height: 346px;
-        border-radius: 0 0 300px 0;
-        position: absolute;
-        top: 20%;
-        left: 0;
-    }
-    .tab1Img {
-        width: 45%;
-    }
-    .tab1Text {
-        width: 30%;
-        position: absolute;
-        top: 20%;
-        right: 15%;
-    }
-    .tab1Img, .tab1Text {
-        display: inline-block;
-    }
-    .tab2, .tab3 {
-        display: none;
-    }
+} 
+.tab1, .tab2, .tab3 {
+    position: relative;
+    padding: 2%;
+}
+.tab1Img svg {
+     width: auto;
+    height: auto;
+    left: 0%;
+    z-index: 1;
+}
+.imageShadow2 {
+    background-color:  hsl(231, 69%, 60%);
+    width: 536px;
+    height: 346px;
+    border-radius: 0 0 300px 0;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.tab1Img {
+    width: 45%;
+}
+.tab1Text {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+.tab1Img, .tab1Text {
+    display: inline-block;
+}
+.tab2, .tab3 {
+    display: none;
+}
 .section3 {  
 position: relative;
 }
-/* .section4 {
+/*                                                           .section4 {
 
 
 } */
