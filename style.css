@@ -13,27 +13,33 @@ header, .section3, .section4 {
 header {                                       /* parent-container HEADER*/
 display: flex;
 }
-#bookmarkLogo {
+.bookmarkLogo {
 width: 80%;
 }
 p {
     color: darkgrey;
 }
-.nav1 a {
+.nav1 li a {
     text-decoration: none;
     color: black;
-    padding: 10px 20px 10px 20px;
-    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: gray;
 }
 .nav1 {
-   justify-content: flex-end;
-   width: 50%;
+    display: flex;
 }
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 #features:hover, #pricing:hover, #contact:hover, #login:hover {
     color: red;
 }
 #features:active, #pricing:active, #contact:active, #login:active {
     border: 2px solid red;
+    color: red;
     border-radius: 3px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -115,7 +121,7 @@ p, h2 {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 50%;
-  /* padding-top: 15%; */
+  padding-top: 15%;
 }
 #tab1, #tab2, #tab3 {
     border-bottom: 3px solid lightgray;
@@ -128,7 +134,7 @@ p, h2 {
     text-align: center;
     color: rgb(118, 118, 118) ;
 }
-#tab1:hover, #tab2:hover, #tab3:hover {
+#tab1:hover, #tab2:hover, #tab3:hover, .nav2 li a:hover {
     color: red;
     cursor: pointer;
 }
@@ -215,5 +221,30 @@ position: relative;
 }
 footer {
     background-color: hsl(229, 31%, 21%);
-    color: white;
+    padding: 50px 150px;
+    text-align: center;
+}
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+}
+.nav2 li a {
+    padding: 0 30px;
+    color: lightgray;
+    font-size: 14px;
+}
+.nav2 li {
+    padding-left: 50px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+footer p a:visited {
+    color: rgb(106, 184, 158);
 }
