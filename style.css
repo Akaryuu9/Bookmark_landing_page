@@ -16,9 +16,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.bookmarkLogo {
-  width: 80%;
-}
 p {
   color: darkgrey;
 }
@@ -57,8 +54,9 @@ li {
 .install {
   background-color: hsl(231, 69%, 60%);
   font-weight: 600;
+  border: hsl(231, 69%, 60%);
   border-radius: 5px;
-  padding: 15px;
+  padding: 20px;
 }
 .div1Button1 a:hover,
 .moreInfo a:hover,
@@ -100,7 +98,7 @@ li {
   margin: 3% 0 0 10%;
 }
 .div1Section1 {
-  width: 34%;
+  width: 550px;
 }
 .div1Section1 h1 {
   font-size: 35px;
@@ -113,7 +111,7 @@ h2 {
 .div2Section1 {
   position: relative;
 }
-#bookmarkImage {
+.illustration-hero {
   position: relative;
   width: auto;
   height: auto;
@@ -139,8 +137,10 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 50%;
   padding-top: 15%;
+}
+.section2header {
+  width: 580px;
 }
 #tab1,
 #tab2,
@@ -174,7 +174,7 @@ h2 {
   position: relative;
   padding: 2%;
 }
-.tab1Img svg {
+.tab1-img {
   width: auto;
   height: auto;
   left: 0%;
@@ -201,6 +201,7 @@ h2 {
 .tab1Img,
 .tab1Text {
   display: inline-block;
+  width: 480px;
 }
 .tab2,
 .tab3 {
@@ -209,14 +210,46 @@ h2 {
 .section3 {
   position: relative;
 }
+.section3header {
+  width:600px;
+}
+.chrome, .firefox, .opera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px 20px;
+  box-shadow: 2px 2px 20px hsl(231, 69%, 90%);
+  border-radius: 10px;
+  position: relative;
+}
+.chrome h1, .firefox h1, .opera h1 {
+  padding-top: 40px;
+}
+.chrome .install, .firefox .install, .opera .install {
+  margin-top: 30px;
+}
+.chrome p, .firefox p, .opera p {
+  padding-bottom: 45px;
+}
+.firefox {
+  left: 5%;
+  top: 40px;
+}
+.opera {
+  left: 10%;
+  top: 80px;
+}
+.browsers {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
 .section4 {
   position: relative;
-  /* display: flex;
-flex-direction: column;
-align-items: center; */
-}
+ }
 .section4header {
-  width: 35%;
+  width: 550px;
 }
 .qa {
   width: 80%;
@@ -254,21 +287,15 @@ align-items: center; */
 .q3,
 .q4 {
   border-bottom: 2px solid lightgray;
-  width: 40%;
+  width: 50%;
   padding: 10px 0 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .q1 {
   border-top: 2px solid lightgray;
-}
-#ans1,
-#ans2,
-#ans3,
-#ans4 {
-  height: auto;
-  width: 50%;
 }
 .section5 {
   background-color: hsl(231, 69%, 60%);
