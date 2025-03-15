@@ -1,120 +1,139 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 body {
-    font-size: 18px;
-    /* margin: 3% 10% 0 10%; */
-    font-family: Rubik;
+  font-size: 18px;
+  /* margin: 3% 10% 0 10%; */
+  font-family: Rubik;
 }
-header, .section3, .section4 {
-    margin: 3% 10% 0 10%;
+header,
+.section3,
+.section4 {
+  margin: 3% 10% 0 10%;
 }
-header {                                       /* parent-container HEADER*/
-display: flex;
+header {
+  display: flex;
+  justify-content: space-between;
 }
 .bookmarkLogo {
-width: 80%;
+  width: 80%;
 }
 p {
-    color: darkgrey;
+  color: darkgrey;
 }
 .nav1 li a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 20px;
-    font-size: 14px;
-    color: gray;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: gray;
 }
 .nav1 {
-    display: flex;
+  display: flex;
 }
 li {
-    list-style-type: none;
-    display: inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
 
-#features:hover, #pricing:hover, #contact:hover, #login:hover {
-    color: red;
+.features:hover,
+.pricing:hover,
+.contact:hover,
+.login:hover {
+  color: red;
 }
-#features:active, #pricing:active, #contact:active, #login:active {
-    border: 2px solid red;
-    color: red;
-    border-radius: 3px;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+.features:active,
+.pricing:active,
+.contact:active,
+.login:active {
+  border: 2px solid red;
+  color: red;
+  border-radius: 3px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
-#div1Button1, .moreInfo, .install {
-    background-color:  hsl(231, 69%, 60%);
-    font-weight: 600;
-    border-radius: 5px;
-    padding: 15px;
+.div1Button1,
+.moreInfo,
+.install {
+  background-color: hsl(231, 69%, 60%);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 15px;
 }
-#div1Button1 a:hover, .moreInfo a:hover, .install a:hover {
-    color: hsl(231, 69%, 60%);
+.div1Button1 a:hover,
+.moreInfo a:hover,
+.install a:hover {
+  color: hsl(231, 69%, 60%);
 }
-#div1Button1:hover, .moreInfo:hover, .install:hover {
-    background-color: white;
-    border: 2px solid hsl(231, 69%, 60%);
+.div1Button1:hover,
+.moreInfo:hover,
+.install:hover {
+  background-color: white;
+  border: 2px solid hsl(231, 69%, 60%);
 }
-#div1Button2 a {
-    text-decoration: none;
-    color: darkslategrey;
+.div1Button2 a {
+  text-decoration: none;
+  color: darkslategrey;
 }
-#div1Button2:hover {
-    background-color: white;
-    border: 2px solid darkslategrey;
+.div1Button2:hover {
+  background-color: white;
+  border: 2px solid darkslategrey;
 }
-#div1Button2 a:hover {
-    color: darkslategray;
+.div1Button2 a:hover {
+  color: darkslategray;
 }
-#div1Button1, #div1Button2 {
-    padding: 2%;
-    margin: 2%;
-    border-radius: 5px;
+.div1Button1,
+.div1Button2 {
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5px;
 }
-#div1Button2 {
-    background-color: whitesmoke;
-    font-weight: 600;
+.div1Button2 {
+  background-color: whitesmoke;
+  font-weight: 600;
 }
-.section1 {                            /*parent-container SECTION1*/
-display: flex;
-padding-top: 8%;
-justify-content: space-between;
-margin: 3% 0 0 10%;
+.section1 {
+  /*parent-container SECTION1*/
+  display: flex;
+  padding-top: 8%;
+  justify-content: space-between;
+  margin: 3% 0 0 10%;
 }
 .div1Section1 {
-    width: 34%;
+  width: 34%;
 }
 .div1Section1 h1 {
-    font-size: 35px;
-    padding: 15px;
+  font-size: 35px;
+  padding: 15px;
 }
-p, h2 {
-    padding: 15px;
+p,
+h2 {
+  padding: 15px;
 }
 .div2Section1 {
-    position: relative;
-
+  position: relative;
 }
 #bookmarkImage {
-    position: relative;
-    width: auto;
-    height: auto;
-    right: 10%;
-    z-index: 1;
+  position: relative;
+  width: auto;
+  height: auto;
+  right: 10%;
+  z-index: 1;
 }
 .imageShadow1 {
-    background-color:  hsl(231, 69%, 60%);
-    width: 536px;
-    height: 346px;
-    border-radius: 0 0 0 300px;
-    position: absolute;
-    top: 25%;
-    right: 0%;
+  background-color: hsl(231, 69%, 60%);
+  width: 536px;
+  height: 346px;
+  border-radius: 0 0 0 300px;
+  position: absolute;
+  top: 25%;
+  right: 0%;
 }
-                                                       /* parent container SECTION2 */
+/* parent container SECTION2 */
 
-.section2header, .section3header, .section4header{
+.section2header,
+.section3header,
+.section4header {
   position: relative;
   /* top: 50%; */
   left: 50%;
@@ -123,128 +142,204 @@ p, h2 {
   width: 50%;
   padding-top: 15%;
 }
-#tab1, #tab2, #tab3 {
-    border-bottom: 3px solid lightgray;
-    padding: 2%;
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    left: 33.3%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: rgb(118, 118, 118) ;
+#tab1,
+#tab2,
+#tab3 {
+  border-bottom: 3px solid lightgray;
+  padding: 2%;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 33.3%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(118, 118, 118);
 }
-#tab1:hover, #tab2:hover, #tab3:hover, .nav2 li a:hover {
-    color: red;
-    cursor: pointer;
+#tab1:hover,
+#tab2:hover,
+#tab3:hover,
+.nav2 li a:hover {
+  color: red;
+  cursor: pointer;
 }
-#tab1:active, #tab2:active, #tab3:active {
-    color: black;
-    border-bottom: 3px solid red;
-
-} 
-.tab1, .tab2, .tab3 {
-    position: relative;
-    padding: 2%;
+#tab1:active,
+#tab2:active,
+#tab3:active {
+  color: black;
+  border-bottom: 3px solid red;
+}
+.tab1,
+.tab2,
+.tab3 {
+  position: relative;
+  padding: 2%;
 }
 .tab1Img svg {
-     width: auto;
-    height: auto;
-    left: 0%;
-    z-index: 1;
+  width: auto;
+  height: auto;
+  left: 0%;
+  z-index: 1;
 }
 .imageShadow2 {
-    background-color:  hsl(231, 69%, 60%);
-    width: 536px;
-    height: 346px;
-    border-radius: 0 0 300px 0;
-    position: absolute;
-    top: 20%;
-    left: 0;
+  background-color: hsl(231, 69%, 60%);
+  width: 536px;
+  height: 346px;
+  border-radius: 0 0 300px 0;
+  position: absolute;
+  top: 20%;
+  left: 0;
 }
 .tab1Img {
-    width: 45%;
+  width: 45%;
 }
 .tab1Text {
-    width: 30%;
-    position: absolute;
-    top: 20%;
-    right: 15%;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  right: 15%;
 }
-.tab1Img, .tab1Text {
-    display: inline-block;
+.tab1Img,
+.tab1Text {
+  display: inline-block;
 }
-.tab2, .tab3 {
-    display: none;
+.tab2,
+.tab3 {
+  display: none;
 }
-.section3 {  
-position: relative;
+.section3 {
+  position: relative;
 }
 .section4 {
-position: relative;
-} 
+  position: relative;
+  /* display: flex;
+flex-direction: column;
+align-items: center; */
+}
+.section4header {
+  width: 35%;
+}
 .qa {
-    width: 33%;
-    position: relative;
-    left: 30%;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .qa p {
-    display: none;
-    position: relative;
-    text-align: left;
-    margin-left: 4%;
+  display: none;
+  position: relative;
+  text-align: left;
+  margin-left: 4%;
 }
 .qa .q {
-    border: none;
-    background-color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 18px;
+  border: none;
+  background-color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 18px;
 }
 .qa .q:hover {
-    color: red;
+  color: red;
 }
-/* #arrow1 path{
+.qa .moreInfo {
+  margin-top: 30px;
+}
+/* #arrow1:hover{
     stroke: red;
 } */
+.q1,
+.q2,
+.q3,
+.q4 {
+  border-bottom: 2px solid lightgray;
+  width: 40%;
+  padding: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.q1 {
+  border-top: 2px solid lightgray;
+}
+#ans1,
+#ans2,
+#ans3,
+#ans4 {
+  height: auto;
+  width: 50%;
+}
 .section5 {
-    background-color:hsl(231, 69%, 60%);
-    color: white ;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  height: 300px;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0 20px 0;
 }
-.contact {
-    background-color: hsl(0, 94%, 66%) ;
+.section5-content {
+  width: 350px;
+  margin: auto;
 }
-.section5 a, .nav2 a, .moreInfo a, .install a, #div1Button1 a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 5px;
+.section5 p {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 11px;
+}
+.contact-btn {
+  background-color: hsl(0, 94%, 66%);
+  padding: 10px 10px;
+  border-color: hsl(0, 94%, 66%);
+  border-radius: 5px;
+}
+input {
+  height: 40px;
+  width: 200px;
+  margin: 20px 10px 0 0;
+  border-radius: 5px;
+  border: none;
+}
+.section5 a,
+.nav2 a,
+.moreInfo a,
+.install a,
+.div1Button1 a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px;
 }
 footer {
-    background-color: hsl(229, 31%, 21%);
-    padding: 50px 150px;
-    text-align: center;
+  background-color: hsl(229, 31%, 21%);
+  padding: 50px 150px;
+  text-align: center;
 }
-.nav2 {
-    display: flex;
-    justify-content: space-between;
-}
+
 .nav2 li a {
-    padding: 0 30px;
-    color: lightgray;
-    font-size: 14px;
+  padding: 0 30px;
+  color: lightgray;
+  font-size: 14px;
 }
 .nav2 li {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: flex-start;
+}
+#facebook:hover,
+#twitter:hover {
+  fill: red;
+}
+.social a {
+  padding: 15px;
 }
 
-
-
-
+.footer-content {
+  display: flex;
+  /* justify-content: space-between; */
+}
 
 footer p a:visited {
-    color: rgb(106, 184, 158);
+  color: rgb(106, 184, 158);
 }
