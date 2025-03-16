@@ -111,7 +111,7 @@ h2 {
 .div2Section1 {
   position: relative;
 }
-.illustration-hero {
+.illustration-hero, .tab1-img {
   position: relative;
   width: auto;
   height: auto;
