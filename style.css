@@ -70,6 +70,10 @@ li {
   background-color: white;
   border: 2px solid hsl(231, 69%, 60%);
 }
+.div1Button1:active, .moreInfo:active, .install:active {
+  box-shadow: 2px 2px 20px hsl(231, 69%, 90%);
+  transform: translateY(4px);
+}
 .div1Button2 a {
   text-decoration: none;
   color: darkslategrey;
@@ -80,6 +84,10 @@ li {
 }
 .div1Button2 a:hover {
   color: darkslategray;
+}
+.div1Button2:active {
+  box-shadow: 2px 2px 20px lightgray;
+  transform: translateY(4px);
 }
 .div1Button1,
 .div1Button2 {
@@ -320,6 +328,19 @@ h2 {
   padding: 10px 10px;
   border-color: hsl(0, 94%, 66%);
   border-radius: 5px;
+   color: white;
+  display: inline-block;
+  width: 100px;
+}
+.contact-btn:hover {
+  background-color: white;
+  color:red;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.contact-btn:active {
+  box-shadow: 2px 2px 20px hsl(0, 94%, 66%);
+  transform: translateY(4px);
 }
 input {
   height: 40px;
