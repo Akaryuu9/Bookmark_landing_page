@@ -4,8 +4,9 @@
 }
 body {
   font-size: 18px;
+  /* margin: 3% 10% 0 10%; */
   font-family: Rubik;
-  margin:  0;;
+  margin: 0;
 }
 header,
 .section3,
@@ -57,9 +58,11 @@ li {
   border: 2px solid transparent;
   text-decoration: none;
   font-weight: 600;
+  border-color: hsl(231, 69%, 60%);
   border-radius: 5px;
   padding: 10px;
   font-size: 14px;
+  padding: 10px;
 }
 .div1Button1:hover,
 .moreInfo:hover,
@@ -76,7 +79,12 @@ li {
   box-shadow: 2px 2px 20px hsl(231, 69%, 90%);
   transform: translateY(5px);
 }
-.div1Button2 {
+.div1Button2 
+.div1Button1:active, .moreInfo:active, .install:active {
+  box-shadow: 2px 2px 20px hsl(231, 69%, 90%);
+  transform: translateY(4px);
+}
+.div1Button2 a {
   text-decoration: none;
   color: darkgray;
   color: black;
@@ -85,9 +93,11 @@ li {
 }
 .div1Button2:hover {
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid darkslategrey;
 }
-
+.div1Button2 a:hover {
+  color: darkslategray;
+}
 .div1Button2:active {
   box-shadow: 2px 2px 20px lightgray;
   transform: translateY(4px);
@@ -351,6 +361,19 @@ h2 {
 .contact-btn:active {
   box-shadow: 2px 2px 20px hsl(0, 94%, 66%);
   transform: translateY(4px);
+   color: white;
+  display: inline-block;
+  width: 100px;
+}
+.contact-btn:hover {
+  background-color: white;
+  color:red;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.contact-btn:active {
+  box-shadow: 2px 2px 20px hsl(0, 94%, 66%);
+  transform: translateY(4px);
 }
 input {
   height: 40px;
@@ -415,7 +438,6 @@ footer {
   display: flex;
   /* justify-content: space-between; */
 }
-
 .attribution a {
   text-decoration: none;
   color: cornsilk;
@@ -423,4 +445,3 @@ footer {
 .attribution a:visited {
   color: rgb(106, 184, 158);
 }
-
