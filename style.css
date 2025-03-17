@@ -56,7 +56,7 @@ li {
   font-weight: 600;
 /*   border: hsl(231, 69%, 60%); */
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
 }
 .div1Button1 a:hover,
 .moreInfo a:hover,
@@ -366,7 +366,10 @@ footer {
   display: flex;
   /* justify-content: space-between; */
 }
-
-footer p a:visited {
+.attribution a {
+  text-decoration: none;
+  color: cornsilk;
+}
+.attribution a:visited {
   color: rgb(106, 184, 158);
 }
