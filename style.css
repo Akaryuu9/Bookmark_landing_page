@@ -6,6 +6,7 @@ body {
   font-size: 18px;
   margin: 3% 10% 0 10%;
   font-family: Rubik;
+  margin: 0;
 }
 header,
 .section3,
@@ -350,10 +351,10 @@ footer {
 .nav2 li {
   padding-left: 50px;
 }
-.footer {
+/* .footer {
   display: flex;
   justify-content: flex-start;
-}
+} */
 #facebook:hover,
 #twitter:hover {
   fill: red;
