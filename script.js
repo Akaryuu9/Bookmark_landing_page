@@ -29,10 +29,13 @@ function show2() {
 }
 function arrow2() {
   let z = document.getElementById("arrow2");
+  const path = z.querySelector("path");
   if (z.style.transform === "none") {
    z.style.transform = "rotate(180deg)";
+   path.style.stroke = "red";
   } else {
     z.style.transform = "none";
+    path.style.stroke = "#5267DF";
   }
 }
 function show3() {
@@ -45,10 +48,13 @@ function show3() {
 }
 function arrow3() {
   let z = document.getElementById("arrow3");
+  const path = z.querySelector("path");
   if (z.style.transform === "none") {
     z.style.transform = "rotate(180deg)";
+    path.style.stroke = "red";
   } else {
     z.style.transform = "none";
+    path.style.stroke = "#5267DF";
   }
 }
 function show4() {
@@ -61,10 +67,13 @@ function show4() {
 }
 function arrow4() {
   let z = document.getElementById("arrow4");
+  const path = z.querySelector("path");
   if (z.style.transform === "none") {
     z.style.transform = "rotate(180deg)";
+    path.style.stroke = "red";
     } else {
       z.style.transform = "none";
+      path.style.stroke = "#5267DF";
   }
 }
 
