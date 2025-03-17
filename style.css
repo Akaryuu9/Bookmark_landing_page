@@ -54,7 +54,7 @@ li {
 .install {
   background-color: hsl(231, 69%, 60%);
   font-weight: 600;
-/*   border: hsl(231, 69%, 60%); */
+  border-color: hsl(231, 69%, 60%);
   border-radius: 5px;
   padding: 10px;
 }
