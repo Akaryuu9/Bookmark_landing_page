@@ -1,5 +1,6 @@
+// FAQ buttons
 function show1() {
-  var x = document.getElementById("ans1");
+  let x = document.getElementById("ans1");
   if (x.style.display === "none") {
      x.style.display = "block";
   } else {
@@ -7,18 +8,19 @@ function show1() {
   }
 }
 function arrow1() {
-  var z = document.getElementById("arrow1");
+  let z = document.getElementById("arrow1");
+  const path = z.querySelector("path");
   if (z.style.transform === "none") {
      z.style.transform = "rotate(180deg)";
+     path.style.stroke = "red";
   } else {
     z.style.transform = "none";
+    path.style.stroke = "#5267DF";
   }
 }
-// document.getElementById("arrow1").addEventListener("click", function() {
-// var c = getElementById("arrow1");   
-// })
+
 function show2() {
-  var x = document.getElementById("ans2");
+  let x = document.getElementById("ans2");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -26,7 +28,7 @@ function show2() {
   }
 }
 function arrow2() {
-  var z = document.getElementById("arrow2");
+  let z = document.getElementById("arrow2");
   if (z.style.transform === "none") {
    z.style.transform = "rotate(180deg)";
   } else {
@@ -34,7 +36,7 @@ function arrow2() {
   }
 }
 function show3() {
-  var x = document.getElementById("ans3");
+  let x = document.getElementById("ans3");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -42,7 +44,7 @@ function show3() {
   }
 }
 function arrow3() {
-  var z = document.getElementById("arrow3");
+  let z = document.getElementById("arrow3");
   if (z.style.transform === "none") {
     z.style.transform = "rotate(180deg)";
   } else {
@@ -50,7 +52,7 @@ function arrow3() {
   }
 }
 function show4() {
-  var x = document.getElementById("ans4");
+  let x = document.getElementById("ans4");
   if (x.style.display === "none") {
     x.style.display = "block";
     } else {
@@ -58,10 +60,44 @@ function show4() {
   }
 }
 function arrow4() {
-  var z = document.getElementById("arrow4");
+  let z = document.getElementById("arrow4");
   if (z.style.transform === "none") {
     z.style.transform = "rotate(180deg)";
     } else {
       z.style.transform = "none";
   }
 }
+
+// Features tabs
+document.querySelectorAll('.tab-link').forEach(tab => {
+  tab.addEventListener('click', function() {
+    const tabId = this.getAttribute('data-tab');
+
+    // Remove active class from all tabs and content
+    document.querySelectorAll('.tab-link').forEach(tab => tab.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+    // Add active class to clicked tab and corresponding content
+    this.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+    console.log(tab);
+  });
+});
+
+// footer input
+
+document.getElementById("email-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+  const emailInput = document.getElementById("email");
+
+  const errorMessage = document.getElementById("error-message");
+  const emailwrapper = document.getElementById("email-wrapper");
+  if (!emailInput.value.trim()) {
+    emailwrapper.classList.add("has-error");
+    errorMessage.style.display = "inline-block";
+  } else {
+    errorMessage.style.display = "none";
+    emailwrapper.classList.remove("has-error");
+  }
+});
+

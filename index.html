@@ -28,8 +28,8 @@
 
          <p>A clean and simple interface to organize your favourite websites. Open a new 
          browser tab and see your sites load instantly. Try it for free. </p>
-         <button class="div1Button1"><a href="404.html">Get it on Chrome</a></button>
-         <button class="div1Button2"><a href="404.html">Get it on Firefox</a></button>
+         <a class="div1Button1" href="404.html">Get it on Chrome</a>
+         <a class="div1Button2" href="404.html">Get it on Firefox</a>
       </div>
       <div class="div2Section1">
         <img  class="illustration-hero" src="illustration-hero.svg">
@@ -41,39 +41,49 @@
             <h2>Features</h2>
             <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p> 
         </div>
-        <p id="tab1">Simple Bookmarking</p>
-        <p id="tab2">Speedy Searching</p>
-        <p id="tab3">Easy Sharing</p>
-
-        <div class="tab1">
-            <div class="tab1Img">
-                <img class="tab1-img" src="illustration-features-tab-1.svg">
-                <div class="imageShadow2"></div> 
-            </div>
-            <div class="tab1Text">
-                <h2>Bookmark in one click</h2>
-                <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-                <button class="moreInfo"><a href="404.html">More info</a></button>
-            </div>
-        </div>
-        <div class="tab2">
-            <div class="tab2Img">
-                <img class="tab2-img" src="illustration-features-tab-2.svg">
-             <div class="imageShadow2"></div>
-            </div>
-            <div class="tab2Text">
-                <h2>Intelligent search</h2>
-                <p> Our powerful search feature will help you find saved sites in no time at all.No need to trawl through all of your bookmarks.</p>
-                <button class="moreInfo"><a href="404.html">More Info</a></button>
+         <div class="tab-links">
+             <!-- <p id="tab1" class="tab-link active">Simple Bookmarking</p> -->
+             <p class="tab-link active" id="tab1" data-tab="tab-1" >Simple Bookmarking</p>
+             <p id="tab2" class="tab-link" data-tab="tab-2">Speedy Searching</p>
+             <p id="tab3" class="tab-link" data-tab="tab-3">Sharing</p>
+         </div>
+        <div class="tab" >
+            <div class="tab-content" id="tab-1">
+                <div class="tab1Img">
+                     <img class="tab1-img" src="illustration-features-tab-1.svg">
+                     <div class="imageShadow2"></div> 
+                </div>
+                 <div class="tab1Text">
+                     <h2>Bookmark in one click</h2>
+                     <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                     <a class="moreInfo" href="404.html">More info</a>
+                 </div>
             </div>
         </div>
-        <div class="tab3">
-            <div class="tab3Img">
-                <img class="tab3-img" src="illustration-features-tab-3.svg">
+        <div class="tab" data-tab="tab-2">
+            <div class="tab-content" id="tab-2">
+                 <div class="tab2Img">
+                     <img class="tab2-img" src="illustration-features-tab-2.svg">
+                     <div class="imageShadow2"></div>
+                 </div>
+                 <div class="tab2Text">
+                     <h2>Intelligent search</h2>
+                     <p> Our powerful search feature will help you find saved sites in no time at all.No need to trawl through all of your bookmarks.</p>
+                     <a class="moreInfo" href="404.html">More Info</a>
+                 </div>
             </div>
-            <div class="tab3Text">
-                <h2>Share your bookmarks</h2>
-                <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+        </div>
+        <div class="tab" data-tab="tab-3">
+            <div class="tab-content" id="tab-3">
+                 <div class="tab3Img">
+                     <img class="tab3-img" src="illustration-features-tab-3.svg">
+                     <div class="imageShadow2"></div>
+                    </div>
+                 <div class="tab3Text">
+                      <h2>Share your bookmarks</h2>
+                     <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                     <a class="moreInfo" href="404.html">More Info</a>
+                 </div>
             </div>
         </div>
     </section>
@@ -88,21 +98,21 @@
                   <h1>Add to Chrome</h1>
                  <p> Minimum version 62</p>
                  <svg xmlns="http://www.w3.org/2000/svg" width="280" height="4"><path fill="#495DCF" fill-opacity=".2" fill-rule="evenodd" d="M0 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm280 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-18 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm122 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-70 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM88 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM70 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM53 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM35 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM18 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
-                 <button class="install"><a href="404.html"> Add & Install Extension</a></button>
+                 <a class="install" href="404.html"> Add & Install Extension</a>
             </div>
             <div class="firefox">
                  <img src="logo-firefox.svg">
                  <h1>Add to Firefox</h1>
                  <p>Minimum version 55</p>
                  <svg xmlns="http://www.w3.org/2000/svg" width="280" height="4"><path fill="#495DCF" fill-opacity=".2" fill-rule="evenodd" d="M0 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm280 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-18 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm122 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-70 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM88 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM70 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM53 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM35 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM18 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
-                 <button class="install"><a href="404.html">Add & Install Extension</a></button>
+                 <a class="install" href="404.html">Add & Install Extension</a>
             </div>
             <div class="opera">
                  <img src="logo-opera.svg">
                  <h1>Add to Opera</h1>
                  <p>Minimum version 46</p>
                  <svg xmlns="http://www.w3.org/2000/svg" width="280" height="4"><path fill="#495DCF" fill-opacity=".2" fill-rule="evenodd" d="M0 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm280 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-18 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm122 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-70 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM88 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM70 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM53 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM35 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM18 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
-                <button class="install"><a href="404.html">Add & Install Extension</a></button> 
+                <a class="install" href="404.html">Add & Install Extension</a>
             </div>
     </div>
     </section>
@@ -113,26 +123,34 @@
         </div>
         <div class="qa">
              <div class="q1">
-                 <button class="q" onclick="show1(), arrow1()">What is Bookmark?</button>
-                 <svg id="arrow1" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                <div onclick="show1(), arrow1()">
+                     <button class="q" >What is Bookmark?</button>
+                     <svg id="arrow1" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                </div>
                  <p id="ans1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
              </div>
              <div class="q2">
-                 <button class="q" onclick="show2(), arrow2()">How can I request a new browser?</button>
-                 <svg id="arrow2" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                <div onclick="show2(), arrow2()">
+                     <button class="q"></button>How can I request a new browser?</button>
+                     <svg id="arrow2" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                </div>
                  <p id="ans2">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
              </div>
              <div class="q3">
-                 <button class="q" onclick="show3(), arrow3()">Is there a mobile app?</button>
-                 <svg id="arrow3" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                <div onclick="show3(), arrow3()">
+                     <button class="q" >Is there a mobile app?</button>
+                     <svg id="arrow3" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                </div>
                  <p id="ans3">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
              </div>
             <div class="q4">
-                 <button class="q" onclick="show4(), arrow4()">What about other Chromium browsers?</button>
+                <div onclick="show4(), arrow4()">
+                 <button class="q">What about other Chromium browsers?</button>
                  <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                </div>
                  <p id="ans4">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>        
              </div>
-            <button class="moreInfo"><a href="404.html">More info</a></button>
+            <a class="moreInfo" href="404.html">More info</a>
         </div>
          
     </section>
@@ -140,9 +158,15 @@
        <div class="section5-content">
          <p>35,000+ ALREADY JOINED</p>
          <h2>Stay up-to-date with what we’re doing</h2>
-         <input type="email" id="contact" placeholder="Enter your email address">
-         <button class="contact-btn"><a href="404.html"> Contact Us</a></button>
-       </div>
+         <form id="email-form">
+            <div id="email-wrapper">
+               <input type="email" id="email" placeholder="Enter your email address">
+               <div id="error-message">Whoops, make sure it's an email address.</div>
+         </div>
+         <!-- <button class="contact-btn"> Contact Us </button> -->
+         <input class="contact-btn" type="submit" value="Contact us">
+        </form>
+        </div>
     </section>
     <footer>
         <div class="footer">
@@ -159,7 +183,7 @@
                  </div>
              </div>
          </div>
-         <p class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by <a href="https://github.com/Akaryuu9/Bookmark_landing_page">Aukse/Akaryuu9</a>.</p>  
+         <p class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/Akaryuu9/Bookmark_landing_page">Aukse/Akaryuu9</a>.</p>  
     </footer>
     <script src="script.js"></script>
 </body>
