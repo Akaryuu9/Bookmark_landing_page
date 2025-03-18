@@ -69,7 +69,9 @@ li {
   background-color: white;
   border: 2px solid hsl(231, 69%, 60%);
 }
-.div1Button1:active, .moreInfo:active, .install:active {
+.div1Button1:active,
+.moreInfo:active,
+.install:active {
   box-shadow: 2px 2px 20px hsl(231, 69%, 90%);
   transform: translateY(5px);
 }
@@ -108,17 +110,22 @@ li {
   width: 550px;
 }
 .div1Section1 h1 {
-  font-size: 35px;
-  padding: 15px;
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+.div1Section1 p {
+  margin-left: 10px;
+  padding-bottom: 50px;
 }
 p,
 h2 {
-  padding: 15px;
+  padding-bottom: 20px;
 }
 .div2Section1 {
   position: relative;
 }
-.illustration-hero, .tab1-img {
+.illustration-hero,
+.tab1-img {
   position: relative;
   width: auto;
   height: auto;
@@ -179,7 +186,9 @@ h2 {
   position: relative;
   padding: 2%;
 }
-.tab1-img, .tab2-img, .tab3-img {
+.tab1-img,
+.tab2-img,
+.tab3-img {
   position: relative;
   width: auto;
   height: auto;
@@ -195,7 +204,9 @@ h2 {
   top: 20%;
   left: 0;
 }
-.tab1Text, .tab2Text, .tab3Text {
+.tab1Text,
+.tab2Text,
+.tab3Text {
   width: 30%;
   position: absolute;
   top: 20%;
@@ -221,9 +232,11 @@ h2 {
   position: relative;
 }
 .section3header {
-  width:600px;
+  width: 600px;
 }
-.chrome, .firefox, .opera {
+.chrome,
+.firefox,
+.opera {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,13 +246,19 @@ h2 {
   border-radius: 10px;
   position: relative;
 }
-.chrome h1, .firefox h1, .opera h1 {
+.chrome h1,
+.firefox h1,
+.opera h1 {
   padding-top: 40px;
 }
-.chrome .install, .firefox .install, .opera .install {
+.chrome .install,
+.firefox .install,
+.opera .install {
   margin-top: 30px;
 }
-.chrome p, .firefox p, .opera p {
+.chrome p,
+.firefox p,
+.opera p {
   padding-bottom: 45px;
 }
 .firefox {
@@ -257,7 +276,7 @@ h2 {
 }
 .section4 {
   position: relative;
- }
+}
 .section4header {
   width: 550px;
 }
@@ -274,12 +293,10 @@ h2 {
   display: none;
   position: relative;
   text-align: left;
-  margin-left: 4%;
 }
 .qa .q {
   border: none;
   background-color: white;
-  padding: 12px 30px;
   cursor: pointer;
   font-size: 18px;
 }
@@ -289,23 +306,25 @@ h2 {
 .qa .moreInfo {
   margin-top: 30px;
 }
-/* #arrow1:hover{
-    stroke: red;
-} */
 .q1,
 .q2,
 .q3,
 .q4 {
   border-bottom: 2px solid lightgray;
   width: 50%;
-  padding: 10px 0 10px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  padding-top: 10px;
 }
 .q1 {
   border-top: 2px solid lightgray;
+}
+.q1 div,
+.q2 div,
+.q3 div,
+.q4 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
 }
 .section5 {
   background-color: hsl(231, 69%, 60%);
@@ -320,9 +339,9 @@ h2 {
   margin: auto;
 }
 .section5 p {
-    color: white;
-    letter-spacing: 5px;
-    font-size: 11px;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 11px;
 }
 .contact-btn {
   background-color: hsl(0, 94%, 66%);
@@ -335,7 +354,7 @@ h2 {
 }
 .contact-btn:hover {
   background-color: white;
-  color:red;
+  color: red;
   cursor: pointer;
   border: 2px solid red;
 }
@@ -348,7 +367,7 @@ h2 {
 }
 .contact-btn:hover {
   background-color: white;
-  color:red;
+  color: red;
   cursor: pointer;
   border: 2px solid red;
 }
@@ -358,26 +377,30 @@ h2 {
 }
 input {
   height: 40px;
-  width: 220px;
+  width: 200px;
   margin: 20px 10px 0 0;
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+#email-form {
+  display: flex;
+  flex-direction: row;
+}
 #error-message {
   display: none;
   color: white;
-  background-color:red;
-  font-size:11px;
+  background-color: red;
+  font-size: 11px;
   font-style: italic;
-  width: 220px;
+  width: 200px;
 }
 #email-wrapper.has-error {
   display: flex;
   flex-direction: column;
 }
 #email-wrapper.has-error input {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 .section5 a,
 .nav2 a,
@@ -393,7 +416,6 @@ footer {
   padding: 50px 150px;
   text-align: center;
 }
-
 .nav2 li a {
   padding: 0 30px;
   color: lightgray;
@@ -402,10 +424,6 @@ footer {
 .nav2 li {
   padding-left: 50px;
 }
-/* .footer {
-  display: flex;
-  justify-content: flex-start;
-} */
 #facebook:hover,
 #twitter:hover {
   fill: red;
@@ -413,10 +431,13 @@ footer {
 .social a {
   padding: 15px;
 }
-
 .footer-content {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
+}
+.left-side {
+  display: flex;
+  justify-content: flex-start;
 }
 .attribution a {
   text-decoration: none;
